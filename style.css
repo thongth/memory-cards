@@ -81,7 +81,7 @@ h1 button {
 }
 
 .card.left {
-    transform: translateX(-50%) rotate(10deg);
+    transform: translateX(-50%) rotateY(10deg);
 }
 
 .inner-card {
