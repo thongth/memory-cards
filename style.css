@@ -145,6 +145,10 @@ h1 button {
     font-size: 16px;
 }
 
+.navigation .nav-button:focus {
+    outline: none;
+}
+
 .navigation p {
     margin: 0 25px;
 }

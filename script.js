@@ -84,6 +84,7 @@ function setCardsData(cards) {
 createCards();
 
 nextBtn.addEventListener('click', () => {
+    if(cardsEl.length === 0) return;
     cardsEl[currentActiveCard].className = `card left`;
 
     currentActiveCard += 1;
@@ -98,6 +99,7 @@ nextBtn.addEventListener('click', () => {
 })
 
 prevBtn.addEventListener('click', () => {
+    if(cardsEl.length === 0) return;
     cardsEl[currentActiveCard].className = `card right`;
 
     currentActiveCard -= 1;
